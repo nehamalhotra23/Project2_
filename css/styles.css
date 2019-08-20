@@ -1,0 +1,40 @@
+.card-img-top {
+  size: 200px;
+}
+
+#L1, #L2, #L3, #L4, #L5, #L6 {
+  display: none;
+}
+
+h1 {
+  color: white;
+  text-shadow: -5px -5px 0 #000, 5px -5px 0 #000, -5px 5px 0 #000, 5px 5px 0 #000 font-size: 30px;
+}
+
+body {
+  background-color: #BC8F8F;
+}
+
+p {
+  text-align: justify;
+}
+
+.python {
+  margin-top: -20px;
+}
+
+#text {
+  display: none;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#submit, #submit2 {
+  margin-top: 20px;
+}
+
+h4 {
+  margin-top: 20px;
+}

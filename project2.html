@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>Perfect Language Finder</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Perfect Language Finder</h1>
+    <h2><strong>Answer A Few General Questions.</strong>We will suggest you a language you can choose according to the information you provided in our survey.</h2>
+    <div id=languages">
+      <h4>Do you like to drink coffee?</h4>
+      <select class="selectpicker" id="que1">
+        <option value="">Select One of the Following</option>
+        <option value="ye">Yes</option>
+        <option value="no">No</option>
+      </select>
+      <h4>How much stressed person you are?</h4>
+      <select class="selectpicker" id="que2">
+        <option value="">Select One of the Following</option>
+        <option value="hi">High</option>
+        <option value="lo">Low</option>
+        <option value="mo">Moderate</option>
+      </select>
+      <h4>Do you like computer?</h4>
+      <select class="selectpicker" id="que3">
+        <option value="">Select One of the Following</option>
+        <option value="es">yes</option>
+        <option value="on">No</option>
+      </select>
+      <h4>How much time you can invest in learning new things?</h4>
+      <select class="selectpicker" id="que4">
+        <option value="">Select One of the Following</option>
+        <option value="Fd">full day</option>
+        <option value="hd">half day</option>
+      </select>
+      <h4>Do you like to meet new people??</h4>
+      <select class="selectpicker" id="que5">
+        <option value="">Select One of the Following</option>
+        <option value="NW">yes</option>
+        <option value="OD">No</option>
+      </select>
+      <br>
+      <button id="submit" class="btn btn-primary" type="button" name="button">Submit</button>
+      <br><br>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="L1" class="card javascript" style="width: 18rem;">
+            <img class="card-img-top" src="images/javascript.png" alt="Card image cap" height="200px">
+            <div class="card-body">
+              <h5 class="card-title">Javascript</h5>
+              <p class="card-text">JavaScript ia text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Incorporating JavaScript improves user experience of the web page by
+                converting it from a static page into an interactive one. To recap, JavaScript adds behavior to web pages.</p>
+              <a href="https://en.wikipedia.org/wiki/JavaScript" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="col-md-6">
+          <div id="L2" class="card python" style="width: 18rem;">
+            <img class="card-img-top" src="images/python.png" alt="Card image cap" height="200px">
+            <div class="card-body">
+              <h5 class="card-title">Python</h5>
+              <p class="card-text">Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use
+                ofsignificant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.Python is dynamically typed and garbage-collected. It supports
+                multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is often described as a "batteries included" language due to its comprehensive standard library.</p>
+              <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" class="btn btn-primary">learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="L3" class="card java" style="width: 18rem;">
+            <img class="card-img-top" src="images/java.png" alt="Card image cap" height="200px">
+            <div class="card-body">
+              <h5 class="card-title">Java</h5>
+              <p class="card-text">Java is a general-purpose programming language that is class-based, object-oriented (although not a pure object-oriented language, as it contains primitive types, and designed to have as few implementation
+                dependencies as possible. It is intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.</p>
+              <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="col-md-6">
+          <div id="L4" class="card ruby" style="width: 18rem;">
+            <img class="card-img-top" src="images/ruby.png" alt="Card image cap" height="200px">
+            <div class="card-body">
+              <h5 class="card-title">Ruby</h5>
+              <p class="card-text">Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. Ruby is dynamically typed and uses garbage collection.
+                It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, Basic, and Lisp.[</p>
+              <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="L5" class="card C" style="width: 18rem;">
+            <img class="card-img-top" src="images/c.png" alt="Card image cap" height="200px">
+            <div class="card-body">
+              <h5 class="card-title">C</h5>
+              <p class="card-text">Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. Ruby is dynamically typed and uses garbage
+                collection.It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, Basic, and Lisp.[</p>
+              <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="col-md-6">
+          <div id="L6" class="card rust" style="width: 18rem;">
+            <img class="card-img-top" src="images/rust.png" alt="Card image cap" height="200px">
+            <div class="card-body">
+              <h5 class="card-title">Rust</h5>
+              <p class="card-text">Rust is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. Ruby is dynamically typed and uses garbage
+                collection.It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, Basic, and Lisp.[</p>
+              <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="form-group purple-border" id="text">
+        <label for="exampleFormControlTextarea4">Feedback</label>
+        <textarea class="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
+        <button id="submit2" class="btn btn-primary" type="button" name="button">Submit</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
